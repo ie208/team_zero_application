@@ -475,7 +475,7 @@ public class ServerMain extends WebSocketServer {
 								generateReplyToClient(
 										CASE_GROUP_TEXT,
 									MESSAGE_REPLY_FAILED, 	
-										"User is not logged in"));
+										"Sender is not logged in"));
 					}			
 					break;
 				case CASE_GETALLGROUPS:
